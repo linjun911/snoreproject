@@ -1,0 +1,65 @@
+# Jupyter 特定
+.ipynb_checkpoints/
+.jupyter/
+.nbconvert/
+
+# 数据文件（根据需要添加）
+*.csv
+*.xlsx
+*.pkl
+*.h5
+
+# 环境文件
+.env
+venv/
+env/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# ========== 音频数据文件 ==========
+# 原始音频文件
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.aac
+
+# 音频数据文件夹
+data/audio/
+data/raw_audio/
+data/processed_audio/
+train_audio/
+test_audio/
+
+# 标记文件（如果很大）
+*.csv
+*.json
+*.txt
+data/labels/
+annotations/
+
+# ========== 模型和检查点 ==========
+*.pth
+*.pt
+*.h5
+*.ckpt
+checkpoints/
+models/
+runs/
+
+# ========== 训练输出 ==========
+outputs/
+results/
+logs/
+tensorboard/
+wandb/
+
+# ========== 临时数据文件 ==========
+*.tmp
+*.cache
+*.npy
+*.npz
+__pycache__/
